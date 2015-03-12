@@ -6,23 +6,17 @@
     <title>Gulpstaticsite by getsetbro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-	.asdf{
-	color:red;
-}
+	@@include('../css/style.css')
 	</style>
   </head>
   <body>
-	<header>
- <h1 class="nx-header"> Style Guidelines and Examples</h1>
-</header>
+	@@include('_header.html')
 	<main>
 		main
 	</main>
-	<footer>
-	footer
-</footer>
+	@@include('_footer.html')
 	<script>
-var asdf = 0;
+@@include('../js/script.js')
 	</script>
   </body>
 </html>
